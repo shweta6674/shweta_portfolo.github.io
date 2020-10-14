@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+/* css property  applying to all the elements
+Basically used class type to identify divs and elements
+
+ */
 
 *{
 	list-style: none;
@@ -19,40 +23,7 @@ body{
 
 }
 
-
-h1.shweta {
-  font-size: 40px;
-  margin: 20px;
-  padding: 15px;
-  line-height: 1;
-  font-weight: 800;
-  color:orange;
-  font-family: "Poppins", sans-serif;
-}
-
-
-h2 {
-  font-size: 30px;
-  color:#800033;
-  margin: 20px;
-  padding: 20px;
-  line-height: 1;
-  font-weight: 800;
-  font-family: "Poppins", sans-serif;
-}
-
-.journey {
-	font-size: 20px;
-  margin: 5px;
-  padding: 10px;
-  line-height: 1;
-  font-weight: 400;
-  color: black;
-  font-family:  'Montserrat', sans-serif;
-  
-}
-
-
+/*navigation bar*/
 ul li a{
 	display: block;
 	color: #505978;
@@ -127,6 +98,41 @@ ul.social_items{
 	color: #fff;
 }
 
+
+/*home*/
+h1.shweta {
+  font-size: 40px;
+  margin: 20px;
+  padding: 15px;
+  line-height: 1;
+  font-weight: 800;
+  color:orange;
+  font-family: "Poppins", sans-serif;
+}
+
+
+h2 {
+  font-size: 30px;
+  color:#800033;
+  margin: 20px;
+  padding: 20px;
+  line-height: 1;
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+}
+
+.journey {
+	font-size: 20px;
+  margin: 5px;
+  padding: 10px;
+  line-height: 1;
+  font-weight: 400;
+  color: black;
+  font-family:  'Montserrat', sans-serif;
+  
+}
+
+/*testimonial display*/
 .screen{
 	
 	padding:52px 0;
@@ -184,6 +190,7 @@ p{
 	font-family:Comic Sans MS;
 }
 
+/*div for seperation of sections*/
 .move {
 	
 	margin: 4px 10px;
@@ -193,6 +200,7 @@ p{
 	
 }
 
+/*common title of sections*/
 h1.title{
 		
 	text-align:center;
